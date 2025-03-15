@@ -21,7 +21,7 @@ const About = () => {
                 specializing in creating responsive, user-friendly applications with modern technologies.
               </p>
               <p className="text-gray-400 mb-8">
-                With over 5 years of experience in the industry, I've worked on a diverse range of projects 
+                With over 1 year of experience in the industry, I've worked on a diverse range of projects 
                 from e-commerce platforms to real-time applications. I'm dedicated to writing clean, 
                 maintainable code and constantly learning new technologies to stay at the forefront of web development.
               </p>
@@ -44,14 +44,14 @@ const About = () => {
               <div className="relative">
                 <div className="w-full h-96 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                    src="/adminpic2.jpg" 
                     alt="Developer" 
-                    className="w-full h-full object-cover mix-blend-overlay opacity-50"
+                    className="w-full h-full object-cover mix-blend-overlay opacity-95"
                   />
                 </div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <h3 className="text-2xl font-bold mb-2">John Doe</h3>
+                <div className="absolute inset-0 flex items-start pt-20 pl-4">
+                  <div className="">
+                    <h3 className="text-[40px] font-bold mb-2">Harsh Bindal</h3>
                     <p className="text-xl">Full Stack Developer</p>
                   </div>
                 </div>
@@ -98,8 +98,8 @@ const About = () => {
                 skills: [
                   { name: "Git", level: 85 },
                   { name: "Docker", level: 75 },
-                  { name: "AWS", level: 70 },
-                  { name: "CI/CD", level: 80 },
+              
+                  
                   { name: "Testing", level: 75 }
                 ]
               }
@@ -148,25 +148,23 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             {[
               {
-                role: "Senior Full Stack Developer",
-                company: "Tech Innovations Inc.",
-                period: "2021 - Present",
+                role: "Full Stack Developer",
+                company: "TestKart",
+                period: "Feb-2025 - Present",
                 description: "Leading development of enterprise web applications using React, Node.js, and MongoDB. Implementing CI/CD pipelines and mentoring junior developers.",
                 achievements: [
-                  "Reduced application load time by 40% through code optimization",
-                  "Implemented microservices architecture improving scalability",
+                  "Improved platform performance by reducing load time by 40% through efficient code optimization",
+                  "Led a team of 5 developers, ensuring timely project delivery while maintaining code quality and best practices.",
                   "Led a team of 5 developers to deliver projects on time and within budget"
                 ]
               },
               {
                 role: "Full Stack Developer",
-                company: "Digital Solutions Ltd.",
-                period: "2018 - 2021",
-                description: "Developed and maintained multiple client websites and web applications using React, Express, and PostgreSQL.",
+                company: "Mai Labs pvt. Ltd.",
+                period: "Dec-2024 - Feb-2025",
+                description: "Working on TestKart, a test series platform where students can purchase and attempt test series to prepare for exams. Responsible for developing and optimizing the platform using React, Node.js, and MongoDB to enhance user experience and performance.",
                 achievements: [
-                  "Built an e-commerce platform serving 10,000+ daily users",
-                  "Integrated payment gateways and shipping APIs",
-                  "Implemented responsive designs and accessibility improvements"
+                
                 ]
               },
               {

@@ -103,7 +103,7 @@ const Contact = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Get In Touch</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 hover:trx">Get In Touch</h1>
               <p className="text-xl text-gray-300 mb-8">
                 Have a question or want to work together? Feel free to reach out!
               </p>
@@ -133,7 +133,7 @@ const Contact = () => {
                     <Mail className="h-6 w-6 text-blue-500 mr-4 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-1">Email</h3>
-                      <p className="text-gray-400">contact@example.com</p>
+                      <p className="text-gray-400">harsh521bindal@gmail.com</p>
                     </div>
                   </div>
                   
@@ -141,7 +141,7 @@ const Contact = () => {
                     <MapPin className="h-6 w-6 text-blue-500 mr-4 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-1">Location</h3>
-                      <p className="text-gray-400">San Francisco, CA</p>
+                      <p className="text-gray-400">Noida,India</p>
                       <p className="text-gray-400">Available for remote work worldwide</p>
                     </div>
                   </div>
@@ -150,7 +150,7 @@ const Contact = () => {
                     <Phone className="h-6 w-6 text-blue-500 mr-4 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-1">Phone</h3>
-                      <p className="text-gray-400">+1 (555) 123-4567</p>
+                      <p className="text-gray-400">+91 8755646436</p>
                     </div>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ const Contact = () => {
                   <h3 className="text-xl font-bold mb-4">Connect With Me</h3>
                   <div className="flex space-x-4">
                     <a 
-                      href="https://github.com" 
+                      href="https://github.com/Harshbindal521" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-gray-700 hover:bg-gray-600 h-12 w-12 rounded-full flex items-center justify-center transition-colors"
@@ -169,7 +169,9 @@ const Contact = () => {
                       </svg>
                     </a>
                     <a 
-                      href="https://linkedin.com" 
+                      href="www.linkedin.com/in/harsh-bindal-145213191
+
+" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-gray-700 hover:bg-gray-600 h-12 w-12 rounded-full flex items-center justify-center transition-colors"
@@ -179,7 +181,9 @@ const Contact = () => {
                       </svg>
                     </a>
                     <a 
-                      href="https://twitter.com" 
+                      href="www.linkedin.com/in/harsh-bindal-145213191
+
+" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-gray-700 hover:bg-gray-600 h-12 w-12 rounded-full flex items-center justify-center transition-colors"
@@ -318,9 +322,9 @@ const Contact = () => {
               <iframe
                 title="Location Map"
                 className="w-full h-full border-0"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.50764017948533!3d37.75781499657369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1644342456896!5m2!1sen!2sus"
-                loading="lazy"
-              ></iframe>
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.85922746037!2d77.23700751999432!3d28.52240403862467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1741809830625!5m2!1sen!2sin" width="800" height="600"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                
+              
             </div>
           </div>
         </div>

@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <Code className="h-8 w-8 text-blue-500" />
+            <img src='./logo1.png' className="h-8 w-8 " />
             <span className="text-xl font-bold">Harsh Portfolio</span>
           </Link>
 

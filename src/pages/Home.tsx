@@ -10,34 +10,48 @@ const Home = () => {
       <ThreeScene />
       
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="container mx-auto px-4 md:px-6 z-10">
-          <div className="text-center max-w-3xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-            >
-              <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-                Software Developer & Full Stack Engineer
-              </h1>
-              <p className="text-xl text-gray-300 mb-8">
-                Building innovative web applications with modern technologies.
-                Specialized in React, Node.js, and cloud solutions.
-              </p>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Link to="/projects" className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-full font-medium transition-colors flex items-center">
-                  View My Work <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-                <Link to="/contact" className="px-8 py-3 bg-gray-800 hover:bg-gray-700 rounded-full font-medium transition-colors">
-                  Get In Touch
-                </Link>
-              </div>
-            </motion.div>
-          </div>
+      <section
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-cover bg-center"
+      style={{
+        backgroundImage: "url('/bg1.png')", // Adjust path as needed
+      }}
+    >
+      {/* Overlay for blur effect */}
+      <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+
+      {/* Content */}
+      <div className="container mx-auto px-4 md:px-6 z-10">
+        <div className="text-center max-w-3xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+              Full Stack Developer & Freelancer
+            </h1>
+            <p className="text-xl text-gray-300 mb-8">
+              Building innovative web applications with modern technologies.
+              Specialized in React, Next, Node.js, and cloud solutions.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link
+                to="/projects"
+                className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-full font-medium transition-colors flex items-center"
+              >
+                View My Work <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+              <Link
+                to="/contact"
+                className="px-8 py-3 bg-gray-800 hover:bg-gray-700 rounded-full font-medium transition-colors"
+              >
+                Get In Touch
+              </Link>
+            </div>
+          </motion.div>
         </div>
-      </section>
-      
+      </div>
+    </section> 
       {/* Skills Section */}
       <section className="py-20 bg-gray-800">
         <div className="container mx-auto px-4 md:px-6">
@@ -54,25 +68,25 @@ const Home = () => {
                 icon: <Code className="h-10 w-10 text-blue-500" />,
                 title: "Frontend Development",
                 description: "Creating responsive and interactive user interfaces with React, TypeScript, and modern CSS frameworks.",
-                skills: ["React", "TypeScript", "Tailwind CSS", "Three.js"]
+                skills: ["React","Next", "TypeScript", "Tailwind CSS", "Three.js"]
               },
               {
                 icon: <Server className="h-10 w-10 text-green-500" />,
                 title: "Backend Development",
                 description: "Building robust server-side applications with Node.js, Express, and various databases.",
-                skills: ["Node.js", "Express", "REST APIs", "GraphQL"]
+                skills: ["Node.js", "Express","Nest","Next", "REST APIs", "GraphQL"]
               },
               {
                 icon: <Database className="h-10 w-10 text-yellow-500" />,
                 title: "Database Management",
                 description: "Designing and optimizing database schemas for performance and scalability.",
-                skills: ["MongoDB", "PostgreSQL", "Redis", "Firebase"]
+                skills: ["MongoDB", "PostgreSQL", "Sql Server", "Firebase"]
               },
               {
                 icon: <Globe className="h-10 w-10 text-purple-500" />,
                 title: "DevOps & Cloud",
                 description: "Deploying and managing applications in cloud environments with CI/CD pipelines.",
-                skills: ["AWS", "Docker", "GitHub Actions", "Kubernetes"]
+                skills: ["Docker", "GitHub Actions", "Netlify","Vercel"]
               }
             ].map((skill, index) => (
               <motion.div
