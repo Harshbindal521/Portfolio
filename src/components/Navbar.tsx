@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Code, Github, Linkedin, Twitter } from 'lucide-react';
+import { Menu, X, Github, Linkedin ,MessageCircleMore } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,9 +26,9 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Projects', path: '/projects' },
-    { name: 'Contact', path: '/contact' }
+    { name: 'About', path: '/About' },
+    { name: 'Projects', path: '/Projects' },
+    { name: 'Contact', path: '/Contact' }
   ];
 
   return (
@@ -63,8 +63,8 @@ const Navbar = () => {
               <a href="https://www.linkedin.com/in/harsh-bindal-145213191/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
+              <a href=" https://wa.me/918755646436" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <MessageCircleMore  className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -93,14 +93,14 @@ const Navbar = () => {
               </Link>
             ))}
             <div className="flex items-center space-x-4 pt-2 pb-1 px-3">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/Harshbindal521" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/harsh-bindal-145213191/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
+              <a href=" https://wa.me/918755646436" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <MessageCircleMore className="h-5 w-5" />
               </a>
             </div>
           </div>

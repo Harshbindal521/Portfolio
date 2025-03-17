@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, MessageCircleMore, Mail, Heart } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
               <a href="www.linkedin.com/in/harsh-bindal-145213191
 
 " target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
+                <MessageCircleMore  className="h-5 w-5" />
               </a>
               <a href="mailto:harsh521bindal@gmail.com" className="text-gray-400 hover:text-white transition-colors">
                 <Mail className="h-5 w-5" />

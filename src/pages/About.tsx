@@ -151,10 +151,10 @@ const About = () => {
                 role: "Full Stack Developer",
                 company: "TestKart",
                 period: "Feb-2025 - Present",
-                description: "Leading development of enterprise web applications using React, Node.js, and MongoDB. Implementing CI/CD pipelines and mentoring junior developers.",
+                description: "Leading development of enterprise web applications using Next.js. Implementing CI/CD pipelines and mentoring junior developers.",
                 achievements: [
                   "Improved platform performance by reducing load time by 40% through efficient code optimization",
-                  "Led a team of 5 developers, ensuring timely project delivery while maintaining code quality and best practices.",
+                  "Contibute in a team of 5 developers, ensuring timely project delivery while maintaining code quality and best practices.",
                   "Led a team of 5 developers to deliver projects on time and within budget"
                 ]
               },
