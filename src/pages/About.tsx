@@ -26,9 +26,8 @@ const About = () => {
                 maintainable code and constantly learning new technologies to stay at the forefront of web development.
               </p>
               <a 
-                href="/api/resume" 
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="/Harsh_bindal_resume_compressed.pdf" 
+                target="_blank"
                 className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-full font-medium transition-colors inline-flex items-center"
               >
                 <Download className="mr-2 h-5 w-5" /> Download Resume
@@ -241,17 +240,17 @@ const About = () => {
               <div className="space-y-6">
                 <div>
                   <h4 className="text-lg font-semibold">Bachelor of Science in Computer Science</h4>
-                  <p className="text-blue-400">University of Technology</p>
-                  <p className="text-gray-400">2012 - 2016</p>
+                  <p className="text-blue-400">Noida institute of engineering and technology</p>
+                  <p className="text-gray-400">2022 - 2024</p>
                   <p className="text-gray-300 mt-2">
                     Focused on software engineering, algorithms, and web development.
                     Graduated with honors.
                   </p>
                 </div>
                 <div>
-                  <h4 className="text-lg font-semibold">Associate Degree in Web Development</h4>
-                  <p className="text-blue-400">Community College of Design</p>
-                  <p className="text-gray-400">2010 - 2012</p>
+                  <h4 className="text-lg font-semibold">Bachelor of computer applications</h4>
+                  <p className="text-blue-400">Silver Bells Institute of higher Education</p>
+                  <p className="text-gray-400">2019 - 2022</p>
                   <p className="text-gray-300 mt-2">
                     Studied fundamentals of web design and development.
                     Completed with distinction.
@@ -273,7 +272,7 @@ const About = () => {
                   <h3 className="text-xl font-bold">Certifications</h3>
                 </div>
               </div>
-              <div className="space-y-6">
+            { /* <div className="space-y-6">
                 <div>
                   <h4 className="text-lg font-semibold">AWS Certified Developer</h4>
                   <p className="text-blue-400">Amazon Web Services</p>
@@ -294,7 +293,7 @@ const About = () => {
                   <p className="text-blue-400">Scrum.org</p>
                   <p className="text-gray-400">2019</p>
                 </div>
-              </div>
+              </div>*/}
             </motion.div>
           </div>
         </div>
