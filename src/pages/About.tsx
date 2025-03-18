@@ -169,7 +169,7 @@ const About = () => {
               {
                 role: "Frontend Developer",
                 company: "WebCraft Agency",
-                period: "2016 - 2018",
+                period: "2023 - 2023",
                 description: "Created responsive, user-friendly interfaces for client websites using HTML, CSS, JavaScript, and React.",
                 achievements: [
                   "Developed 20+ client websites with modern UI/UX principles",
